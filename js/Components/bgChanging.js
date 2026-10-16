@@ -103,7 +103,7 @@ export function bgChanging() {
         // Change Background Image URL
         myLanding.style.backgroundImage =
           'url("imgs/' + imgArray[randomNumber] + '")';
-      }, 1000);
+      }, 10000);
     } else {
       clearInterval(bgChanging);
     }
